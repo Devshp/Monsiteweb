@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Couleur bleu clair pour le fond */
+    color: #333; /* Couleur du texte (noir) */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00aaff; /* Couleur bleu clair pour la barre de navigation */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff; /* Texte en blanc */
+}
+
+header .search-container {
+    display: flex;
+    align-items: center;
+}
+
+header input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+header input[type="submit"] {
+    padding: 8px;
+    background-color: #005f6b; /* Noir pour le bouton de recherche */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.main-content {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.main-content button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #005f6b; /* Noir pour le bouton */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.main-content button:hover {
+    background-color: #00494d; /* Couleur de survol */
+}
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
