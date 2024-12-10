@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* bleu clair */
+            color: #333; /* noir */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00aaff; /* bleu clair */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header .search-container {
+            display: flex;
+            align-items: center;
+        }
+        header input[type="text"] {
+            padding: 8px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            outline: none;
+        }
+        header input[type="submit"] {
+            padding: 8px;
+            background-color: #005f6b; /* noir */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 8px;
+        }
+        .main-content {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .main-content h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .main-content button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #005f6b; /* noir */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .main-content button:hover {
+            background-color: #00494d; /* couleur de survol */
+        }
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mon Site</h1>
+        <div class="search-container">
+            <input type="text" placeholder="Rechercher...">
+            <input type="submit" value="Chercher">
+        </div>
+    </header>
+    <div class="main-content">
+        <h2>Bienvenue sur Mon Site</h2>
+        <button onclick="startDeveloping()">Commencer à développer</button>
+        <img src="https://images.app.goo.gl/6PQCenLpuC6zx4Xg9" alt="Image du site">
+    </div>
+
+    <script>
+        function startDeveloping() {
+            alert('Vous avez cliqué sur "Commencer à développer"!');
+        }
+    </script>
+</body>
+</html>
